@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Tables - JoJo’s Woodwork</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="top-nav">
+      <a href="index.html" class="btn home">Home</a>
+    </header>
+
+    <h2>Tables</h2>
+<section class="examples">
+  <h3>Example Tables</h3>
+  <img src="images/Tabel.jpg" alt="Wooden Table Example">
+</section>
+
+    <section class="order-form">
+      <label for="orderText">Specify Order:</label><br>
+      <textarea id="orderText" rows="6" cols="40" placeholder="Describe your table order here..."></textarea><br>
+      <button class="btn send" onclick="sendOrder()">Send</button>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

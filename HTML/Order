@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order - JoJo’s Woodwork</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="top-nav">
+      <a href="index.html" class="btn home">Home</a>
+    </header>
+
+    <section class="order-grid">
+      <a href="tables.html" class="order-item">Tables</a>
+      <a href="chairs.html" class="order-item">Chairs</a>
+      <a href="boards.html" class="order-item">Cutting Boards</a>
+      <a href="custom.html" class="order-item">Custom</a>
+    </section>
+  </div>
+</body>
+</html>
+

@@ -1,4 +1,4 @@
 function sendOrder() {
   alert("Thank you for buying!");
-  window.close(); // closes the browser tab or window
+  window.location.href = "thankyou.html";
 }

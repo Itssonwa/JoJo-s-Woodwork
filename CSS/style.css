@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #d3aefb;
+  background-color: #9a82b4;
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -85,7 +85,7 @@ p {
   padding: 10px 20px;
   border-radius: 10px;
   text-decoration: none;
-  color: #fff; 
+  color: rgb(199, 221, 241); 
   font-weight: bold;
   transition: all 0.3s ease;
 }
@@ -105,7 +105,7 @@ p {
 
 /* Home button styling */
 .home {
-  background-color: #e53935; 
+  background-color: #ff5d5a; 
   padding: 10px 20px;
   border-radius: 10px;
   text-decoration: none;
@@ -121,10 +121,24 @@ p {
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
-/* Hover effects */
-.btn:hover,
-.btn:focus {
-  opacity: 0.85;
+/* Send button styling */
+.send {
+  background-color: #4caf50; 
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  color: #fff; 
+  transition: all 0.3s ease;
+}
+
+.send:hover {
+  background-color: #388e3c; 
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
+
+
+
+
+

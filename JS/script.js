@@ -1,4 +1,10 @@
 function sendOrder() {
-  alert("Thank you for buying!");
-  window.location.href = "thankyou.html";
+    let order = document.getElementById("orderText").value;
+
+    if (order.trim() === "") {
+        alert("Please enter your order details.");
+        return;
+    }
+
+    window.location.href = "thankyou.html";
 }

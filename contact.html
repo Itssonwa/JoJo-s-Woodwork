@@ -27,6 +27,32 @@
       <h2>Address</h2>
       <p>123 Roundhouse Lane, Durban, KwaZulu‑Natal, South Africa</p>
     </section>
+    <section class="contact-form">
+    <h2>Send Us a Message</h2>
+
+    <form id="contactForm">
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br><br>
+
+        <label for="messageType">Message Type:</label><br>
+        <select id="messageType" required>
+            <option value="">Select</option>
+            <option>General Enquiry</option>
+            <option>Quote Request</option>
+            <option>Complaint</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" required></textarea><br><br>
+
+        <button type="submit" class="send">Send Message</button>
+
+    </form>
+</section>
   </div>
 </body>
 </html>

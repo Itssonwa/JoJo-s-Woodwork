@@ -34,3 +34,26 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+function searchProducts() {
+
+    let input =
+        document.getElementById("searchBox");
+
+    let filter =
+        input.value.toLowerCase();
+
+    let items =
+        document.getElementsByClassName("order-item");
+
+    for (let i = 0; i < items.length; i++) {
+
+        let text =
+            items[i].textContent.toLowerCase();
+
+        items[i].style.display =
+            text.includes(filter)
+            ? ""
+            : "none";
+    }
+}

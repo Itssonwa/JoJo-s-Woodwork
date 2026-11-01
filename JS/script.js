@@ -59,9 +59,10 @@ function searchProducts() {
         let text =
             items[i].textContent.toLowerCase();
 
-        items[i].style.display =
-            text.includes(filter)
-            ? ""
-            : "none";
+        if (text.includes(filter)) {
+            items[i].style.display = "";
+        } else {
+            items[i].style.display = "none";
+        }
     }
 }

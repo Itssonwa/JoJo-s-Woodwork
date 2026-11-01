@@ -14,12 +14,18 @@ Running the Project
 5. Your browser will open at `http://127.0.0.1:5500/index.html`.
 
 Updates
-Fixed CSS connections on all pages.
-Added JavaScript validation.
-Added Search Product functionality.
+Fixed CSS connection issues on all webpages.
 Added SEO meta tags.
+Added product search functionality.
+Added order form validation.
+Added contact form validation.
 Added enquiry page.
-Added contact form.
-Added responsive styling.
+Improved button styling.
+Added responsive image support.
 Added sitemap.xml.
 Added robots.txt.
+Deployed website using GitHub Pages
+
+## Live Website
+Website URL:
+https://itssonwa.github.io/JoJo-s-Woodwork/

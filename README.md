@@ -12,3 +12,14 @@ Running the Project
 3. Open the project folder in VS Code.
 4. Right‑click `index.html` → Open with Live Server.
 5. Your browser will open at `http://127.0.0.1:5500/index.html`.
+
+Updates
+Fixed CSS connections on all pages.
+Added JavaScript validation.
+Added Search Product functionality.
+Added SEO meta tags.
+Added enquiry page.
+Added contact form.
+Added responsive styling.
+Added sitemap.xml.
+Added robots.txt.

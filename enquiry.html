@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - JoJo's Woodwork</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <meta name="description" content="Submit an enquiry to JoJo's Woodwork regarding furniture products and custom orders.">
+    <meta name="keywords" content="woodwork, enquiry, furniture, Durban, custom furniture">
+    <meta name="author" content="JoJo's Woodwork">
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="top-nav">
+            <a href="index.html" class="btn home">Home</a>
+        </header>
+
+        <h2>Product Enquiry</h2>
+
+        <form id="enquiryForm">
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label for="product">Product Type:</label><br>
+            <select id="product" required>
+                <option value="">Select Product</option>
+                <option>Tables</option>
+                <option>Chairs</option>
+                <option>Cutting Boards</option>
+                <option>Custom Furniture</option>
+            </select><br><br>
+
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" min="1" required><br><br>
+
+            <label for="enquiry">Enquiry Details:</label><br>
+            <textarea id="enquiry" rows="5" required></textarea><br><br>
+
+            <button type="submit" class="send">Submit Enquiry</button>
+
+        </form>
+
+        <p id="response"></p>
+
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

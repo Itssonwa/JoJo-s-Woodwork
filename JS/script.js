@@ -66,3 +66,32 @@ function searchProducts() {
         }
     }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const enquiryForm =
+        document.getElementById("enquiryForm");
+
+    if (enquiryForm) {
+
+        enquiryForm.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            const product =
+                document.getElementById("product").value;
+
+            const quantity =
+                document.getElementById("quantity").value;
+
+            const response =
+                document.getElementById("response");
+
+            response.innerHTML =
+                "Thank you for your enquiry about "
+                + quantity + " "
+                + product +
+                ". We will contact you shortly regarding pricing and availability.";
+        });
+    }
+});
